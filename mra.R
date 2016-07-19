@@ -66,7 +66,7 @@ ggplot(data, aes(x = actual, y = predicted)) +
   geom_point() +   theme(plot.title = element_text(hjust = 0.5)) +
   coord_fixed(ratio = 1) +
   labs(
-    x = "Actual Fuel Consumption",
-    y = "Predicted Fuel Consumption",
-    title = "Predicted vs. Actual Fuel Consumption"
+    x = "Actual population density people per square mile",
+    y = "Predicted population density people per square mile",
+    title = "Predicted vs. Actual population density people per square mile"
   )
